@@ -8,11 +8,13 @@ public class EnemyControler : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
     }
 
     private void Update()
     {
+        if (player == null) return;
+
         float distance = Vector2.Distance(transform.position, player.position);
 
         if (distance < detectionRange)
