@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: a878402ec54d9cc439cba9a92427caf7
+guid: 7a7cfb16a2afda94083c758850e99913
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4927804973456682364
-    second: char IDLE_0
-  - first:
-      213: -7185932885851502824
-    second: char IDLE_1
-  - first:
-      213: 3115420158249715599
-    second: char IDLE_2
+      213: 522272241774401677
+    second: Stone Bricks rev_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -145,11 +139,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: char IDLE_0
+      name: Stone Bricks rev_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 256
         width: 32
         height: 32
       alignment: 0
@@ -160,62 +154,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48216ba3c7bec9bb0800000000000000
-      internalID: -4927804973456682364
+      spriteID: d88920736db7f3700800000000000000
+      internalID: 522272241774401677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char IDLE_1
+      name: Stone Bricks rev_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 817060fec10764c90800000000000000
-      internalID: -7185932885851502824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char IDLE_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f87c092b0223c3b20800000000000000
-      internalID: 3115420158249715599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char IDLE_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
+        y: 256
         width: 32
         height: 32
       alignment: 0
@@ -226,8 +176,184 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf4d5b876e16cce4ea50b878a1050ee9
-      internalID: -1677907019
+      spriteID: 839f6ba560f525c439053fcc5f5c3960
+      internalID: 625103780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Bricks rev_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750860a793e4f444b9630cc61ec0e9a1
+      internalID: 1286858268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Bricks rev_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab7a7f2db5d2f74e8146d5bddcceb55
+      internalID: 1257336228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Bricks rev_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4521ce070c225474f8fc20e4ae5d9a34
+      internalID: -206745195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Bricks rev_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd20a44deb8d365449caab9faab96984
+      internalID: 210275660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Bricks rev_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ebe354f2d280c4cb69930d83c2583f
+      internalID: 1969627370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Bricks rev_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9823f444228bb44b6de1bed0ad498e
+      internalID: 1146339601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Bricks rev_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461ded333f130de4485d0a5a5f9b58a1
+      internalID: -986421306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Bricks rev_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3000ed77c69f44194be4d8a69fa38a
+      internalID: 53284614
       vertices: []
       indices: 
       edges: []
@@ -236,7 +362,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: dc5fe2f2e6d78bb44aa6543212ec7d0c
+    spriteID: be8fc6a39f82acf46b1d5cd6c0059252
     internalID: 0
     vertices: []
     indices: 
@@ -246,10 +372,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      char IDLE_0: -4927804973456682364
-      char IDLE_1: -7185932885851502824
-      char IDLE_2: 3115420158249715599
-      char IDLE_3: -1677907019
+      Stone Bricks rev_0: 522272241774401677
+      Stone Bricks rev_1: 625103780
+      Stone Bricks rev_2: 1286858268
+      Stone Bricks rev_3: 1257336228
+      Stone Bricks rev_4: -206745195
+      Stone Bricks rev_5: 210275660
+      Stone Bricks rev_6: 1969627370
+      Stone Bricks rev_7: 1146339601
+      Stone Bricks rev_8: -986421306
+      Stone Bricks rev_9: 53284614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -151,10 +151,10 @@ TextureImporter:
       name: char jalan_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 28
-        height: 96
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: char jalan_1
       rect:
         serializedVersion: 2
-        x: 34
-        y: 31
-        width: 28
-        height: 65
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,9 +195,9 @@ TextureImporter:
       name: char jalan_2
       rect:
         serializedVersion: 2
-        x: 66
-        y: 63
-        width: 28
+        x: 64
+        y: 64
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -217,9 +217,9 @@ TextureImporter:
       name: char jalan_3
       rect:
         serializedVersion: 2
-        x: 66
-        y: 31
-        width: 28
+        x: 0
+        y: 32
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -235,11 +235,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: char jalan_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d501a8848d8414095f71bd50cadf97
+      internalID: 1854080586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char jalan_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e36773e0f73004085d7e96fdf33862
+      internalID: 644256642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char jalan_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfffdb9ea682b640b1aa0d2e2215233
+      internalID: 179444771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 68b76fc457232934493e2fb69b62df7f
     internalID: 0
     vertices: []
     indices: 
@@ -253,6 +319,9 @@ TextureImporter:
       char jalan_1: 937427433554301741
       char jalan_2: -3127650859955176661
       char jalan_3: 9187760319422781516
+      char jalan_4: 1854080586
+      char jalan_5: 644256642
+      char jalan_6: 179444771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
