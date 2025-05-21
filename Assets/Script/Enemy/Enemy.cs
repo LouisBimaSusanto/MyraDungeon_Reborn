@@ -2,15 +2,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void OnDestroy()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (WaveMediator.Instance != null)
+        {
+            WaveMediator.Instance.EnemyDie();
+        }
     }
 }

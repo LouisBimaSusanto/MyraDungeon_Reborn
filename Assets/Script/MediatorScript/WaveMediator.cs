@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class WaveMediator : MonoBehaviour
 {
-    public static WaveMediator instance;
+    public static WaveMediator Instance;
 
     private List<IWaveObserver> observers = new();
     public WaveManager waveManager;
 
     private void Awake()
     {
-        instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void RegisterObserver(IWaveObserver observer)
@@ -54,5 +61,8 @@ public class WaveMediator : MonoBehaviour
         }
     }
 
-
+    public void SetWaveManager(WaveManager manager)
+    {
+        waveManager = manager;
+    }
 }
