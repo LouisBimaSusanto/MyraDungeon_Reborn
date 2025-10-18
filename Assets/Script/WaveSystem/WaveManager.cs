@@ -3,11 +3,20 @@ using UnityEngine;
 
 public class WaveManager : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+    [Header("enemy prefab")]
+    public GameObject enemyPrefab_A;
+    public GameObject enemyPrefab_B;
+
+    [Header("Spawn Setting")]
     public Transform[] spawnPoints;
     public int[] enemiesPerWave;
     public float spawnInternal = 1f;
 
+    [Header("Probability Spawn")]
+    [Range(0f, 1f)] public float enemyAChange = 0.7f;
+    [Range(0f, 1f)] public float enemyBChange = 0.3f;
+
+    [Header("Ennmy Value Setting's")]
     private int currentWave = 0;
     private int enemiesSpawned = 0;
     private int enemiesKilled = 0;
@@ -35,7 +44,11 @@ public class WaveManager : MonoBehaviour
     void SpawnEnemy()
     {
         Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
-        GameObject enemy = Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
+
+        float rand = Random.value; //This change value between 0-1
+        GameObject prefabToSpawn = (rand <= enemyAChange) ? enemyPrefab_A : enemyPrefab_B;
+
+        Instantiate(prefabToSpawn, spawnPoint.position, Quaternion.identity);
     }
 
     public void ReportEnemyKilled()

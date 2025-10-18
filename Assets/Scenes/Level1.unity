@@ -3012,12 +3012,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21b0b7b9669d4b6448a7b0b5d76fb92b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 9089048137109410978, guid: bf3c4022bff008344b6f62740e30abd4, type: 3}
+  enemyPrefab_A: {fileID: 9089048137109410978, guid: bf3c4022bff008344b6f62740e30abd4, type: 3}
+  enemyPrefab_B: {fileID: 9089048137109410978, guid: cc55839f877b3044f9cc2763d22d5bad, type: 3}
   spawnPoints:
   - {fileID: 623176031}
   - {fileID: 857953429}
   enemiesPerWave: 05000000080000000c000000
   spawnInternal: 3
+  enemyAChange: 0.7
+  enemyBChange: 0.3
 --- !u!1 &1742757076
 GameObject:
   m_ObjectHideFlags: 0
