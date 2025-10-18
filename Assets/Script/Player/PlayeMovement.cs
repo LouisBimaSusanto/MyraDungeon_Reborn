@@ -48,8 +48,6 @@ public class PlayeMovement : MonoBehaviour
 
             FaceInput();
         }
-
-
     }
 
     void FaceInput()

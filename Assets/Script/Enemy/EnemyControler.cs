@@ -23,5 +23,4 @@ public class EnemyControler : MonoBehaviour
             transform.position += (Vector3)(direction * moveSpeed * Time.deltaTime);
         }
     }
-
 }
